@@ -39,6 +39,7 @@ const Weather = () => {
           <input
             type="text"
             className="form-control"
+            placeHolder="Please Enter Your City Name"
             value={inputCity}
             onChange={handleChangeInputChange}
           />
